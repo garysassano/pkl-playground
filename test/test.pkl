@@ -1,0 +1,23 @@
+defaults = new Mapping {
+  ["repository_options"] {
+    visibility = "public"
+    is_template = false
+    gitignore_template = null
+    license_template = null
+    ["template"] {
+      owner = null
+      repository = null
+      include_all_branches = false
+    }
+  }
+  ["main_branch_options"] {
+    require_signed_commits = false
+    required_linear_history = false
+  }
+}
+
+output {
+  renderer = new YamlRenderer {
+    omitNullProperties = false
+  }
+}

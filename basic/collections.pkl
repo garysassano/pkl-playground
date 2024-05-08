@@ -1,0 +1,15 @@
+// LISTING (collection of elements)
+listing {
+  "Pigeon"
+  "Parrot"
+  "Barn owl"
+  "Falcon"
+}
+
+// MAPPING (collection of entries)
+mapping {
+  ["Pigeon"] = "Streets"
+  ["Parrot"] = "Parks"
+  ["Barn owl"] = "Forests"
+  ["Falcon"] = "Mountains"
+}
